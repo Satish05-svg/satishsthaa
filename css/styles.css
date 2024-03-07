@@ -76,6 +76,77 @@
     color: #fff;
     transition: color 0.3s ease;
   }
+  /* Your CSS styles remain the same */
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-header span {
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #999;
+}
+
+.form-content {
+  margin-top: 10px;
+}
+
+.form-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-content input,
+.form-content textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-content button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.form-content button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.response {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
   
   .nav-links a:hover {
     color: #ffeb3b;
@@ -126,13 +197,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  #contact-form,
-#send-orders-form {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-button {
+  
+  button {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -147,20 +213,6 @@ button {
     background-color: #45a049;
   }
   
-  
-  form button {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
-    background-color: #388E3C;
-  }
-  
   /* Footer Styles */
   footer {
     background-color: #4CAF50;
@@ -172,4 +224,26 @@ button {
   footer p {
     font-size: 1rem;
   }
+
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
   
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Centering Styles */
+  .center {
+    text-align: center;
+  }
