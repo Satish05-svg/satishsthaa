@@ -126,8 +126,13 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
-  button {
+  #contact-form,
+#send-orders-form {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+button {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -142,6 +147,20 @@
     background-color: #45a049;
   }
   
+  
+  form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #388E3C;
+  }
+  
   /* Footer Styles */
   footer {
     background-color: #4CAF50;
@@ -153,26 +172,4 @@
   footer p {
     font-size: 1rem;
   }
-
-  /* Table Styles */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
   
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  /* Centering Styles */
-  .center {
-    text-align: center;
-  }
