@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Website 1 URLs -->
     <url>
         <loc>https://www.shresthasatish.com.np/</loc>
         <lastmod>2024-03-15</lastmod>
@@ -18,6 +19,12 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+     <url>
+        <loc>https://www.shresthasatish.com.np/#photo</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
         <loc>https://www.shresthasatish.com.np/#partner</loc>
         <lastmod>2024-03-15</lastmod>
@@ -30,4 +37,31 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
+
+    <!-- Website 2 URLs -->
+    <url>
+        <loc>https://www.shresthasatish.com.np/Satish/index.html</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.shresthasatish.com.np/Satish/about</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shresthasatish.com.np/Satish/gallery</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.shresthasatish.com.np/Satish/contact</loc>
+        <lastmod>2024-03-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Add more URLs from Website 2 as needed -->
 </urlset>
