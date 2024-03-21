@@ -3,138 +3,135 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Global Styles */
-body {
+  }
+  
+  /* Global Styles */
+  body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     line-height: 1.6;
-}
-
-.container {
+  }
+  
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-/* Navigation Styles */
-nav {
+  }
+  
+  /* Navigation Styles */
+  nav {
     background-color: #4CAF50;
     color: #fff;
     padding: 15px 0;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.dropdown {
+  }
+  .dropdown {
     position: relative;
-}
-
-.dropdown-content {
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #4CAF50;
     min-width: 160px;
     z-index: 1;
     border-radius: 5px;
-}
-
-.dropdown-content a {
+  }
+  
+  .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-
-.dropdown-content a:hover {
+  }
+  
+  .dropdown-content a:hover {
     background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
+  }
+  
+  .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.logo {
+  }
+  
+  .logo {
     font-size: 1.5rem;
-}
-
-.nav-links {
+  }
+  
+  .nav-links {
     list-style: none;
     display: flex;
-}
-
-.nav-links li {
+  }
+  
+  .nav-links li {
     margin-right: 20px;
-}
-
-.nav-links a {
+  }
+  
+  .nav-links a {
     text-decoration: none;
     color: #fff;
     transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
+  }
+  
+  .nav-links a:hover {
     color: #ffeb3b;
-}
-
-.social-links {
+  }
+  
+  .social-links {
     display: flex;
-}
-
-.social-links a {
+  }
+  
+  .social-links a {
     color: #fff;
     font-size: 1.5rem;
     margin-right: 10px;
     transition: color 0.3s ease;
-}
-
-.social-links a:hover {
+  }
+  
+  .social-links a:hover {
     color: #ffeb3b;
-}
-
-/* Section Styles */
-section {
+  }
+  
+  /* Section Styles */
+  section {
     padding: 50px 0;
-}
-
-section h2 {
+  }
+  
+  section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #4CAF50;
-}
-
-section p {
+  }
+  
+  section p {
     font-size: 1.2rem;
     color: #777;
-}
-
-/* Form Styles */
-form label {
+  }
+  
+  /* Form Styles */
+  form label {
     display: block;
     margin-bottom: 5px;
-}
-
-form input,
-form textarea {
+  }
+  
+  form input,
+  form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-#contact-form,
+  }
+  #contact-form,
 #send-orders-form {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
-
 button {
     background-color: #4CAF50;
     color: white;
@@ -144,34 +141,35 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #45a049;
-}
-
-form button {
+  }
+  
+  
+  form button {
     background-color: #4CAF50;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-form button:hover {
+  }
+  
+  form button:hover {
     background-color: #388E3C;
-}
-
-/* Footer Styles */
-footer {
+  }
+  
+  /* Footer Styles */
+  footer {
     background-color: #4CAF50;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-
-}
-
-footer p {
+  }
+  
+  footer p {
     font-size: 1rem;
-}
+  }
+  
