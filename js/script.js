@@ -19,5 +19,4 @@ document.addEventListener("DOMContentLoaded", function() {
         form.style.maxHeight = form.scrollHeight + "px";
       }
     }
-  });
-  
+});
