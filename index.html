@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9001413073453293"
-     crossorigin="anonymous"></script>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y5QMCD668"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0Y5QMCD668');
-</script>
   <meta charset="UTF-8">
+  <link rel="sgortcut icon" type="x-icon" href="img\icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,10 +11,23 @@
   <meta name="keywords" content="Satish Shrestha, Personal Website, IT Student, Nilkantha Multiple Campus, Gallery, Partner, Contact">
   
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://www.shresthasatish.com.np",
+        "@type": "WebSite",
+        "name": "Satish Shrestha",
+        "url": "https://www.shresthasatish.com.np//"
+      }
+    </script>
 </head>
 <meta name="google-site-verification" content="ybnAeR_BQ06dVIgZDIrItKDlvlbbrfOyaq8xxzV-AjY" />
-<body> 
+<body>
+  
   <nav>
     <div class="container">
       <h1 class="logo">Satish Shrestha</h1>
@@ -54,21 +57,9 @@
 
   <section id="photo">
     <div class="container">
-      <img src="img/Me.JPG" alt="Satish Shrestha" class="profile-photo" height="200" width="200">
+      <img src="img/Me.jpg" alt="Satish Shrestha" class="profile-photo" height="200" width="200">
     </div>
   </section>
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9001413073453293"
-     crossorigin="anonymous"></script>
-<!-- Daraz -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9001413073453293"
-     data-ad-slot="5746548405"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
   <section id="about">
     <div class="container">
@@ -110,28 +101,52 @@
   
   <section id="send-orders">
     <div class="container">
-      <h2>Send Orders</h2>
-      <p>Add Fb name and dob for lock unlocking...</p>
-      <button id="show-send-orders-form">Send Orders</button>
-      <form action="https://formspree.io/f/mqkrlenp" method="POST" id="send-orders-form">
+      <h2>Forms</h2>
+      <p>Fill out all the forms</p>
+      <form name="myform"action="https://formspree.io/f/mqkrlenp" method="POST" id="form">
         <!-- Send orders form inputs -->
-        <label for="order-name">Name:</label>
-        <input type="text" id="order-name" name="order-name" required>
+        <label for="order-name">Full Name:</label>
+        <input type="text" id="order-name" name="name" value="fullname"required><br>
         <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required>
-        <label for="required-time">Required Time:</label>
-        <input type="time" id="required-time" name="required-time" required>
-        <label for="sender-name">Sender Name:</label>
-        <input type="text" id="sender-name" name="sender-name" required>
-        <label for="Id">Fb Id</label>
-        <input type="text" id="Id" name="Id" required>
-        <label for="Pass">Fb Pass</label>
-        <input type="text" id="Id" name="Pass" required>
-        <label for="link">Secure Link</label>
-        <input type="textbox" id="Id" name="link" required>
+        <input type="date" id="dob" name="dob" value="dateofbirth" required>
+        <label for="order-name">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="Others" name="gender" value="Others">
+        <label for="female">Others</label><br>
+        
+        <label for="caste">Select your caste:</label><br>
+        <select id="caste" name="caste">
+            <option value="">Select...</option>
+            <option value="Brahmin">Brahmin</option>
+            <option value="Brahmin">Brahmin</option>
+            <option value="Kshatriya">Kshatriya</option>
+            <option value="Vaishya">Vaishya</option>
+            <option value="Shudra">Shudra</option>
+            <option value="Dalit">Dalit</option>
+            <option value="Other">Other (Please Specify)</option>
+        </select><br>
+        
+        <label for="otherCaste">If Other, please specify:</label><br>
+        <input type="text" id="otherCaste" name="otherCaste" placeholder="Other caste"><br>
+       
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="permanentResidence">Permanent Residence:</label><br>
+    <input type="checkbox" id="permanentResidenceYes" name="permanentResidence" value="yes">
+    <label for="permanentResidenceYes">Yes</label><br>
+    
+    <input type="checkbox" id="permanentResidenceNo" name="permanentResidence" value="no">
+    <label for="permanentResidenceNo">No</label><br>
+       
 
         <button type="submit">Send</button>
-      </form>
+
+
     </div>
   </section>
   
